@@ -1,0 +1,23 @@
+.feature-section-2{
+    background-position:-400px 0;
+    background-size:200% 100%;
+}
+.corefeaturesection{
+    background-size:100% 100%;
+    padding-top:12rem;
+    padding-bottom:12rem;
+}
+.companiesList{
+    animation:moveCompany 10s linear infinite;
+}
+@keyframes moveCompany{
+    0%{
+        top:0;
+    }
+    100%{
+        top:-50%;
+    }
+}
+.cta-section{
+    background-size:100% 100%;
+}
